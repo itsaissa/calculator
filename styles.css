@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    border: 1px solid black;
 }
 
 body{
@@ -21,4 +20,39 @@ body{
 .title{
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:24px
+}
+
+.rows{
+    display: flex;
+    gap: 16px;
+}
+
+.screen{
+    border: 1px solid black;
+    width: 240px;
+    height: 80px;
+}
+
+.first-row{
+    display: flex;
+    width: max-content;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 24px;
 }
