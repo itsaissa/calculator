@@ -27,7 +27,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:24px
+    gap:24px;
+}
+
+.calculator-container{
+    background-color: #323232;
+    border-radius: 20px;
+    box-shadow: 4px;
 }
 
 .rows{
@@ -39,11 +45,18 @@ body{
     width: 64px;
     height: 64px;
     margin: 15px;
-    font-size: 24px;
+    font-size: 30px;
+    background-color: rgb(111, 111, 111);
+    color: white;
+}
+
+.btn:hover{
+    transform: translateY(-0.2rem);
+    transition: all 250ms ease-in-out;
 }
 
 .decimal{
-    border: 1px solid gold;
+    border: 1px solid;
 }
 .decimal:hover{
     background-color: gold;
@@ -62,11 +75,11 @@ body{
     color: white;
 }
 .equal{
-    border: 1px solid darkmagenta;
+    border: 1px solid gold;
 }
 .equal:hover{
-    background-color: darkmagenta;
-    color: white;
+    background-color: gold;
+    color: black;
 }
 #clear{
     border: 1px solid purple;
@@ -80,10 +93,12 @@ body{
     border: 1px solid black;
     height: 64px;
     margin: 15px;
+    padding-right: 4px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+    background-color: gray;
 }
 
 .first-row{
@@ -93,11 +108,13 @@ body{
     flex-direction: row;
 }
 
-.first-number{
-    font-size: 16px;
+.first{
+    font-size: 14px;
+    color: white;
 }
 
-.second-number{
+.second{
     font-size: 24px;
+    color: white;
 }
 
