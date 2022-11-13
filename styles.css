@@ -68,10 +68,10 @@ body{
     background-color: darkmagenta;
     color: white;
 }
-.clear{
+#clear{
     border: 1px solid purple;
 }
-.clear:hover{
+#clear:hover{
     background-color: purple;
 }
 
