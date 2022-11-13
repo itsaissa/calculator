@@ -35,24 +35,56 @@ body{
     gap: 16px;
 }
 
-.screen{
+.btn{
+    width: 64px;
+    height: 64px;
+    margin: 15px;
+    font-size: 24px;
+}
+
+.decimal{
+    border: 1px solid gold;
+}
+.decimal:hover{
+    background-color: gold;
+}
+.operator{
+    border: 1px solid slateblue;
+}
+.operator:hover{
+    background-color: slateblue;
+}
+.number{
     border: 1px solid black;
-    width: 240px;
-    height: 80px;
+}
+.number:hover{
+    background-color: black;
+    color: white;
+}
+.equal{
+    border: 1px solid darkmagenta;
+}
+.equal:hover{
+    background-color: darkmagenta;
+    color: white;
+}
+.clear{
+    border: 1px solid purple;
+}
+.clear:hover{
+    background-color: purple;
+}
+
+#screen{
+    width: 300px;
+    border: 1px solid black;
+    height: 64px;
+    margin: 15px;
 }
 
 .first-row{
     display: flex;
-    width: max-content;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 24px
-}
-
-button{
-    width: 80px;
-    height: 80px;
-    background-color: transparent;
-    border: 1px solid black;
-    font-size: 24px;
+    flex-direction: row;
 }
